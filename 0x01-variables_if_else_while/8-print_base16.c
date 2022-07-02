@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Result: 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	for (numbers = 0; numbers <= 10; numbers++)
 		putchar((numbers % 10) + '0');
 
-	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+	for (alphabets = 'a'; alphabets <= 'f'; alphabets++)
 		putchar(alphabets);
 
 	putchar('\n');
