@@ -24,7 +24,7 @@ int main(void)
 					putchar(o);
 
 					if (m == '7' && n == '8')
-				      		continue;
+						continue;
 
 					putchar(',');
 					putchar(' ');
