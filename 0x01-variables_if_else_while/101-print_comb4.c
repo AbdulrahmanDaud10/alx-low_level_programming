@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  *
  * main - Entry point
@@ -11,11 +12,11 @@ int main(void)
 {
 	int m, n, o;
 
-	for ( m = '0'; m < '9'; m++)
+	for (m = '0'; m < '9'; m++)
 	{
-		for ( n = m + 1; n <= '9'; n++)
+		for (n = m + 1; n <= '9'; n++)
 		{
-			for ( o = n + 1; o <= '9'; o++)
+			for (o = n + 1; o <= '9'; o++)
 			{
 				if ((m != n) != o)
 				{
@@ -34,5 +35,5 @@ int main(void)
 	}
 	putchar('\n');
 
-	return (0);
+	return (0):
 }	
