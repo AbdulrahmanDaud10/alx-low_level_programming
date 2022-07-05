@@ -7,7 +7,14 @@
  */
 int main(void)
 {
-	printf("_putchar");
+	int i;
+	char myPrint[] = "_putchar";
+
+	for (i = 0; i < 8; i++)
+	{
+		printf(myPrint[i]);
+	}
+	putchar('\n');
 
 	return (0);
 }
