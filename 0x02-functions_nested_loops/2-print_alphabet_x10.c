@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void print_alphabet_x10(void) - prints 10 times the alphabet in loowercase followed by newli
+ * function print_alphabet_x10(void) - prints 10 times lowecase alphabet
  *
  * Return: void
  */
@@ -18,4 +18,5 @@ void print_alphabet_x10(void)
 	}
 
 	_putchar('\n');
+	_putchar(' ');
 }
