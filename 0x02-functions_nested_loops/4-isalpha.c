@@ -2,7 +2,7 @@
 
 /**
  *_isalpha - checks whether alphabetic character is lower or upper case
- *@c: parameter checked
+ *@c: checked
  * Returns: 0 (Success)
  */
 int _isalpha(int c)
