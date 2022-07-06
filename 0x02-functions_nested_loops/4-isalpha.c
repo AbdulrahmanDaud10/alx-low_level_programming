@@ -3,7 +3,7 @@
 /**
  *_isalpha - checks whether alphabetic character is lower or upper case
  *@c: checked
- * Returns: 0 (Success)
+ * Return: 0 (Success)
  */
 int _isalpha(int c)
 {
