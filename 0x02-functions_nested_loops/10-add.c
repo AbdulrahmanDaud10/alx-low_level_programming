@@ -5,7 +5,7 @@
  *@x - value to add
  *@y - value to add
  *@add - addition
- * Returrn: result
+ * Return: result
  */
 int add(int x, int y)
 {
