@@ -10,7 +10,7 @@ char *cap_string(char *string)
 {
 	int i, c;
 	int trigger;
-	char nots[] = ",;.!?(){}\n\t\"";
+	char nots[] = ",;.!?(){}\n\t\" ";
 
 	for (i = 0, trigger = 0; string[i] != '\0'; i++)
 	{
