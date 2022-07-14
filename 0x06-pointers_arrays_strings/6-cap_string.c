@@ -2,9 +2,9 @@
 
 /**
  * cap_string - Capitalizes all letters of string
- * @c: each character of a string to be converted to uppercase
+ * @string: each character of a string to be converted to uppercase
  *
- * Return: c (Success)
+ * Return: string (Success)
  */
 char *cap_string(char *string)
 {
