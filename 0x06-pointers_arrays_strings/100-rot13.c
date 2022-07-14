@@ -3,7 +3,7 @@
 /**
  * rot13 - encodes a string using rot13 algorithm
  * @s: string
- * Return: encoded c
+ * Return: encoded s
  */
 char *rot13(char *s)
 {
@@ -23,5 +23,6 @@ char *rot13(char *s)
 			}
 		}
 	}
+
 	return (s);
 }
