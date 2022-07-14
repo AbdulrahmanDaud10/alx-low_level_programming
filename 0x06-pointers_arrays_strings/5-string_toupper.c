@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - Change all lowercase letter to uppercase in a string
- * @s: string parameter to be tested
+ * @c: string parameter to be tested
  *
  * Description: A to Z in ACSII is 96 to 123, so, to convert a character
  * the formulae is given character- 32 to get ACSII no for the uppercase letter
