@@ -3,6 +3,7 @@
 /**
  * factorial - returns the factorial of a given number
  * @n: number of times the function has to calls itself
+ * Return: factorial of n
  */
 int factorial(int n)
 {
