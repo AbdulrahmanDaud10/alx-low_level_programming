@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * create_array - creates an array of characters & initializes it 
+ * create_array - creates an array of characters & initializes it
  * with a specific character
  * @size: the size of the array
  * @c: array of character of type interger
@@ -15,7 +15,7 @@ char *create_array(unsigned int size, char c)
 	char *pt = malloc(size);
 	if (size == 0 || pt == 0)
 		return (0);
-       while (size--)
-       		pt[size] = c;
+	while (size--)
+			pt[size] = c;
 	return (pt);
-}	
+}
