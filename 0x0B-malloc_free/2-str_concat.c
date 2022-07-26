@@ -42,7 +42,7 @@ char *str_concat(char *s1, char *s2)
 	ar = malloc(tlen * sizeof(char));
 	if (ar == NULL)
 		return (NULL);
-	else if
+	else
 	{
 		for (i = 0; i < len1; i++)
 			ar[i] = s1[i];
