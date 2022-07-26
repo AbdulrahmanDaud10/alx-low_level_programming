@@ -7,7 +7,7 @@
 * * @s: pointer to string of char type
 * *
 * * Return: length of given string.
-et /
+*/
 
 int _strlen(char *s)
 {
@@ -25,7 +25,7 @@ int _strlen(char *s)
 * * @s2: Second string.
 * *
 * * Return: Returns the created array.
-* **/
+*/
 
 char *str_concat(char *s1, char *s2)
 {
