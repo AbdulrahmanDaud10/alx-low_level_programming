@@ -37,5 +37,5 @@ char *argstostr(int ac, char **av)
 	if (str != NULL)
 		return (str);
 	else
-			return (NULL);
+		return (NULL);
 }
