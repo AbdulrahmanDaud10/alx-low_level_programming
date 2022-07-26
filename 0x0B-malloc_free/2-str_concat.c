@@ -7,7 +7,7 @@
 * * @s: pointer to string of char type
 * *
 * * Return: length of given string.
-*/
+et /
 
 int _strlen(char *s)
 {
@@ -38,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
-	tlen = (len1 + len2)+1;
+	tlen = (len1 + len2) + 1;
 	ar = malloc(tlen * sizeof(char));
 	if (ar == NULL)
 		return (NULL);
