@@ -5,12 +5,12 @@
 
 /**
  *  * main - multiplies two positive numbers
- *   * @argc: arguments count
- *    * @argv: array of arguments (pointers)
- *     *
- *      * Return: 0 on Success, 98 upon failure
- *       * Author: Felix Obianozie
- *        */
+ *	* @argc: arguments count
+ *	* @argv: array of arguments (pointers)
+ *	*
+ *	* Return: 0 on Success, 98 upon failure
+ *	* Author: Felix Obianozie
+ *	*/
 int main(int argc, char **argv)
 {
 		int i, j, k, l, ndex, len_1, len_2, total_len;
@@ -45,8 +45,8 @@ int main(int argc, char **argv)
 																	{
 																				printf("Malloc failed!\n");
 																						free(num1);
-																						        	free(num2);
-																								        	free(mul);
-																										        	free(sum);
+																								free(num2);
+																										free(mul);
+																												free(sum);
 																														exit(98);
 																															}

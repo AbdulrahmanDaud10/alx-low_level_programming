@@ -3,11 +3,11 @@ nclude <stdlib.h>
 
 /**
  *  * *_realloc - reallocates a memory block using malloc and free
- *   * @ptr: pointer to the memory previsouly allocated by malloc
- *    * @old_size: size of previously allocated memory for ptr
- *     * @new_size: size of the new memory block to be allocated
- *      * Return: pointer to the newly allocated memory block
- *       */
+ *	* @ptr: pointer to the memory previsouly allocated by malloc
+ *	* @old_size: size of previously allocated memory for ptr
+ *	* @new_size: size of the new memory block to be allocated
+ *	* Return: pointer to the newly allocated memory block
+ *	*/
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 		char *new_ptr;

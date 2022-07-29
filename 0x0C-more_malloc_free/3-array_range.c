@@ -3,10 +3,10 @@
 
 /**
  *  * array_range - creates an array of integers.
- *   * @max: maximum integer value
- *    * @min: minimum integer value
- *     * Return: pointer to the newly created array.
- *      **/
+ *	* @max: maximum integer value
+ *	* @min: minimum integer value
+ *	* Return: pointer to the newly created array.
+ *	**/
 
 int *array_range(int min, int max)
 {
