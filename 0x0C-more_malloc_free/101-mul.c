@@ -45,9 +45,9 @@ int main(int argc, char **argv)
 	{
 		printf("Malloc failed!\n");
 		free(num1);
-        	free(num2);
-        	free(mul);
-        	free(sum);
+		free(num2);
+		free(mul);
+		free(sum);
 		exit(98);
 	}
 
