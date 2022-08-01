@@ -6,10 +6,8 @@
  * @name: struct dog's member 1, name (char *)
  * @age: struct dog's member 2, age (float)
  * @owner: struct dog's member 3, owner (char *)
- * Return: Nothing
  */
-
-void init_dog(struct *d, char *name, float age, char *owner)
+void init_dog(struct dog *d, char  *name, float age, char *owner)
 {
 	if (d)
 	{
