@@ -49,7 +49,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		ndog->name[k] = name[k];
 
 	/*Assign age*/
-	ndog-> = age;
+	ndog->age = age;
 
 	/*Reserve memory for member, owner*/
 	ndog->owner = malloc(j * sizeof(ndog->owner));
