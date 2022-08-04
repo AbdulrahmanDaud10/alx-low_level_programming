@@ -1,70 +1,57 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
- * op_add - addition operator
- * @a: first integer
- * @b: second integer
- * Return: sum of 2 numbers
- */
-
+ * op_add - Adds two numbers
+ * @a: int 1
+ * @b: int 2
+ * Return: Returns result
+**/
 int op_add(int a, int b)
 {
-	return (a + b);
+return (a + b);
 }
 
 /**
- * op_sub - substraction operator
- * @a: first integer
- * @b: second integer
- * Return: difference of the the two integers
- */
-
+ * op_sub - subtracts two numbers
+ * @a: int 1
+ * @b: int 2
+ * Return: Returns result
+**/
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
 
 /**
- * op_mul - division operator
- * @a: first integer
- * @b: second integer
- * Return: product of the two integers
- */
+ * op_mul - Multiplies two numbers
+ * @a: int 1
+ * @b: int 2
+ * Return: Returns result
+**/
 
 int op_mul(int a, int b)
 {
-	return (a * b);
+return (a * b);
 }
 
 /**
- * op_div - division of two integers
- * @a: first integer
- * @b: second integer
- * Return: result of the division of the integers
- */
+ * op_div - Divides two numbers
+ * @a: int 1
+ * @b: int 2
+ * Return: Returns result
+**/
+
 int op_div(int a, int b)
 {
-	if (b == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
 	return (a / b);
 }
 
 /**
- * op_mod - getting the reminder after dividing two integer
- * @a: first integer
- * @b: second integer
- * Return: reminder of the division of the integer
- */
+ * op_mod - finds Modules two numbers
+ * @a: int 1
+ * @b: int 2
+ * Return: Returns result
+**/
+
 int op_mod(int a, int b)
 {
-	if (b == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
-	return (a % b);
+return (a % b);
 }
