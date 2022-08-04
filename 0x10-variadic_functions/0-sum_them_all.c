@@ -4,7 +4,8 @@
 /**
  * sum_them_all - return the sum of all its parameters
  * @n: number of extra params
- * Return: total sum
+ * @...: variadic parameters
+ * Return: total sumi else 0 if n is zero
  */
 int sum_them_all(const unsigned int n, ...)
 {
