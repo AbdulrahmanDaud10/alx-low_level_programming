@@ -2,23 +2,27 @@
 #include <stdio.h>
 
 /**
- * print_list - print all the elements of 'list_t' list
- * @h: head of linked list
- * Return: number of nodes
+ * print_list - print all the elements of a struct list
+ * @h: the struct
+ * Return: the number of nodes
  */
+
 size_t print_list(const list_t *h)
 {
-	const list_t *current;
-	size_t c;
+	unsigned int i;
 
-	c = 0;
-	current = h;
-	while (current != NULL)
+	for (i = 0; h != NULL; i++)
 	{
-		printf("[%d] %s\n", current->len, current->str);
-		current = current->next;
-		c++;
+		/*Check that string per node is not null before traversing & printing*/
+		if (h->str == NULL)
+		{
+			printf("[%d] (nil)\n", 0);
+		}
+		else
+		{
+			printf("[%u] %s\n", h->len, h->str);
+		}
+		h = h->next;
 	}
-
-	return (c);
+	return (i);
 }
