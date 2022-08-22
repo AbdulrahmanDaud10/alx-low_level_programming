@@ -1,12 +1,19 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * get_bit - function that returns the value of a bit at a given index
- * @n: input long integer
- * @index: index to start at
- * Return: value of the bit at hte index
+ * get_bit - get the value of a bit at a given index
+ * @n: number to evaluate
+ * @index: index starting from 0, of the bit we want to get
+ * Return: Value of bit at index, or -1 if error
  */
-int gget_bit(unsigned long int n, unsigned int index)
+int get_bit(unsigned long int n, unsigned int index)
 {
-	return ((index > (8 * sizeof(n) - 1)) ? -1 : (int)(n >> index) & 1);
+	unsigned long int hold;
+
+	if (index > 64)
+		return (-1);
+
+	hold = n >> index;
+
+	return (hold & 1);
 }
